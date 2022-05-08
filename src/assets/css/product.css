@@ -46,17 +46,76 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
+  align-items: center;
   width: 50%;
 }
 
 .productContainerCart{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   justify-content: center;
+  align-items: center;
   width: 100%;
-  height: 20vh;
-  background-color: rgba(0, 0, 0, 0.031);
+  height: 30vh;
+  /* background-color: rgba(0, 0, 0, 0.031); */
   margin: 20px;
   border-radius: 10px;
   padding: 30px;
 }
+
+.titleAndImage{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  font-size: 13px;
+  width: 50%;
+  height: 100%;
+  white-space:nowrap;
+  border-radius: 30px;
+  border: rgba(0, 0, 0, 0.112) solid 1px;
+  padding: 30px;
+}
+
+.MoreLess{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 30px;
+  border-radius: 60px;
+  background-color: #000000;
+  color: white;
+  margin-right: 10px;
+}
+
+#delete{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 30px;
+  height: 30px;
+  border-radius: 90px;
+  background-color: red;
+  color: white;
+}
+
+.moreOrLess{
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+
+#quantity{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 40px;
+  height: 100%;
+  margin-right: 10px;
+}
+
